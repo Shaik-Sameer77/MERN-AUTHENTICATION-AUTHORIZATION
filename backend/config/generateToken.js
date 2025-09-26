@@ -22,7 +22,7 @@ export const generateToken = async (id, res) => {
   const existingSession = await redisClient.get(activeSessionKey);
   if (existingSession) {
     await redisClient.del(`session:${existingSession}`);
-    await redisClient.del(refreshToken);
+    await redisClient.del(refreshTokenKey);
   }
 
   const sessionData = {
