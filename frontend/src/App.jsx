@@ -7,7 +7,7 @@ import { ToastContainer } from "react-toastify";
 import VerifyOtp from "./pages/verifyOtp/VerifyOtp.jsx";
 import { AppData } from "./context/AppContext.jsx";
 import Loading from "./Loading.jsx";
-import Verify from "./pages/verify/verify.jsx";
+import Verify from "./pages/verify/Verify.jsx";
 import ForgotPassword from "./pages/forgotpassword/ForgotPassword.jsx";
 import Dashboard from "./pages/dashboard/Dashboard.jsx";
 import ResetPassword from "./pages/resetpassword/ResetPassword.jsx";
