@@ -12,7 +12,6 @@ export const generateCSRFToken = async (userId, res) => {
     httpOnly: false,
     secure: true,
     sameSite: "none",
-    domain: '.vercel.app',
     maxAge: 60 * 60 * 1000,
   });
 

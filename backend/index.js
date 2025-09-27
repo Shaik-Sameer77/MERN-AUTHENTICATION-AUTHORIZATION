@@ -30,8 +30,6 @@ redisClient
 
 const app = express();
 
-app.set('trust proxy', 1);
-
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
