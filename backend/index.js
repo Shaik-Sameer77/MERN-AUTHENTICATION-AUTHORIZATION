@@ -30,11 +30,6 @@ redisClient
 
 const app = express();
 
-// --- CRITICAL FIX: Trust the proxy headers from Vercel/Load Balancers ---
-// This ensures that Express recognizes the request as HTTPS, which is
-// REQUIRED for secure: true cookies to be set correctly in production.
-app.set('trust proxy', 1);
-
 //middlewares
 app.use(express.json());
 app.use(cookieParser());
