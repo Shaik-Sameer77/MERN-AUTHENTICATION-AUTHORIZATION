@@ -8,7 +8,7 @@ The app supports **JWT-based authentication**, **role-based authorization**, and
 ## 🚀 Live Demo
 
 * **Frontend (Vercel)**: [MERN Auth Frontend](https://mern-authentication-authorization-pearl.vercel.app/)
-* **Backend (Vercel)**: [MERN Auth Backend](https://mern-authentication-authorization-3.vercel.app/)
+* **Backend (Vercel)**: [MERN Auth Backend](backend-of-mern-authentication-g5vxty6g6.vercel.app)
 
 ---
 
@@ -153,3 +153,4 @@ This project is licensed under the **MIT License**.
 
 Developed by **Shaik Sameer** 🚀
 Feel free to contribute or raise issues!
+
